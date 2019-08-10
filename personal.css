@@ -55,7 +55,7 @@ nav a{
     color: white;
     text-decoration: none;
 }
-nav a hover{
+nav a:hover{
     color: white;
 }
 
@@ -131,6 +131,7 @@ p{
 
 .project_list a{
     font-size: 20px;
+    color: black;
 }
 
 .project_list ul{
