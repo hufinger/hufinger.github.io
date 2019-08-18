@@ -26,6 +26,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    max-width: 100%;
     height: 650px;
 }
 
@@ -84,6 +85,12 @@ p{
     content: "";
     display: table;
     clear: both;
+}
+
+.photo_gallery img{
+    
+    width: 30%;
+    max-height: 30%;
 }
 
 .resume_column{
