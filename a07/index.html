@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <Title>2048 by Hunter</Title>
+        <link rel="stylesheet" href="2048.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src = "view.js" type = "module"></script>
+        <script src = "engine/game.js" type = "module"></script>
+    </head>
+    <body>
+        <div id = "root">
+                <h1>2048 By Hunter</h1>
+                <div id = "instructions">
+                    <p>Using the arrow keys, move the tiles to combine like numbers to gain points.</p>
+                    <p>Once the largest tile shows "2048", you win!</p>
+                </div>
+                <div id = "score">
+                    <p id = "curScore">Score: 0 </p>
+                </div>
+                <div id = "gameBoard">
+                    <div class = "tile" id = "tile1"></div>
+                    <div class = "tile" id = "tile2"></div>
+                    <div class = "tile" id = "tile3"></div>
+                    <div class = "tile" id = "tile4"></div>
+                    <div class = "tile" id = "tile5"></div>
+                    <div class = "tile" id = "tile6"></div>
+                    <div class = "tile" id = "tile7"></div>
+                    <div class = "tile" id = "tile8"></div>
+                    <div class = "tile" id = "tile9"></div>
+                    <div class = "tile" id = "tile10"></div>
+                    <div class = "tile" id = "tile11"></div>
+                    <div class = "tile" id = "tile12"></div>
+                    <div class = "tile" id = "tile13"></div>
+                    <div class = "tile" id = "tile14"></div>
+                    <div class = "tile" id = "tile15"></div>
+                    <div class = "tile" id = "tile16"></div>
+                </div>
+                <div id = "TRYTRYAGAIN">
+                        <button type = "button" id  = "reset">Reset Board</button>
+                </div>
+                <div id = "winloss">
+                    <p id = "won"></p>
+                    <p id = "lost"></p>
+                </div>
+        </div>
+        
+    </body>
+</html>
